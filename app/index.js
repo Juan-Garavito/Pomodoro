@@ -1,5 +1,5 @@
-import ActuaClase from "./components/ActuaClase.js"
-import { Cronometro } from "./components/Cronometro.js"
+import ActuaClase from "https://juan-garavito.github.io/Pomodoro/app/components/ActuaClase.js"
+import { Cronometro } from "https://juan-garavito.github.io/Pomodoro/app/components/Cronometro.js"
 
 const btnStart = document.querySelector("#btnStart")
 const btnProcess = document.querySelector("#process")

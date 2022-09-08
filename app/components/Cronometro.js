@@ -1,4 +1,4 @@
-import ActuaClase from "./ActuaClase.js"
+import ActuaClase from "https://juan-garavito.github.io/Pomodoro/app/components/ActuaClase.js"
 
 
 export class Cronometro{
