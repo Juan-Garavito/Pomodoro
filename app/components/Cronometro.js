@@ -1,5 +1,6 @@
-import ActuaClase from "https://juan-garavito.github.io/Pomodoro/app/components/ActuaClase.js"
+import ActuaClase from "./ActuaClase.js"
 
+const audioFinal = new Audio("../assets/music/clock-alarm.mp3")
 
 export class Cronometro{
     constructor(obj){
@@ -26,10 +27,11 @@ export class Cronometro{
         let ciclo = setInterval(()=>{
             if(this.getState().minActual === 0 && this.getState().segActual === 0){
                 clearInterval(ciclo)
+                audioFinal.play()
                 if(this.getState().numBloques == 5 ){
                     this.setState({
                         descanso : !this.getState().descanso,
-                        minActual : 2,
+                        minActual : 20,
                         segActual : 0,
                         numBloques: 0
                     })
