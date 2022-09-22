@@ -9,7 +9,7 @@ const btnAceptar = document.querySelector("#btnAceptar")
 const modalCrono = document.querySelector(".mCrono")
 const error = document.querySelector(".error")
 
-const audioInicio = new Audio("./assets/music/c-note.mp3")
+const audioInicio = new Audio("https://juan-garavito.github.io/Pomodoro/app/assets/music/c-note.mp3")
 
 btnProcess.classList.add("oculto")
 
