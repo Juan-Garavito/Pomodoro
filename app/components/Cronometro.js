@@ -1,6 +1,6 @@
 import ActuaClase from "./ActuaClase.js"
 
-const audioFinal = new Audio("../assets/music/clock-alarm.mp3")
+const audioFinal = new Audio("https://juan-garavito.github.io/Pomodoro/app/assets/music/clock-alarm.mp3")
 
 export class Cronometro{
     constructor(obj){
